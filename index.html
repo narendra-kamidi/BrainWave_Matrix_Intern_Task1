@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Day Planner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <h1>📅 Day Planner</h1>
+      <div id="currentDateTime"></div>
+      <div id="planner"></div>
+      <div class="btn-group">
+        <button id="clearAllBtn" class="clear-btn">🗑️ Clear All Tasks</button>
+        <button onclick="window.print()" class="print-btn">🖨️ Print Planner</button>
+        <button id="themeToggle" class="theme-btn">🌓 Toggle Theme</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <div id="toast" class="toast">
+    <span id="toast-message">✅ Task saved successfully!</span>
+  <span id="toast-close" class="toast-close">&times;</span>
+  </div>
+
+</body>
+</html>

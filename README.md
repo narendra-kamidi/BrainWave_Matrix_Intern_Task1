@@ -1,14 +1,14 @@
 #Day Planner – Your Smart Daily Task Organizer
 A responsive and interactive Day Planner web application built using HTML, CSS, and JavaScript that helps users efficiently organize and manage their daily schedules. It provides a clean UI with dynamic time-based task inputs and features like local storage persistence, theming, and printing support.
 
-#🔧 Tech Stack:
+🔧 Tech Stack:
 HTML5 for structure
 
 CSS3 for responsive and theme-able design
 
 Vanilla JavaScript for dynamic interactivity and local storage handling
 
-#✨ Key Features:
+✨ Key Features:
 🕒 Live Date & Time – Real-time display of current date and time.
 
 📝 Time-blocked Task Inputs – Organized from 9 AM to 5 PM for structured planning.
@@ -23,7 +23,7 @@ Vanilla JavaScript for dynamic interactivity and local storage handling
 
 ✅ Toast Notifications – Smooth feedback system with auto-close and manual dismiss support.
 
-#🌐 Responsive Design:
+🌐 Responsive Design:
 Fully functional across desktop and mobile screens.
 
 Adaptive layout with mobile-first optimizations.
